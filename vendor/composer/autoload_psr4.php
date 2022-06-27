@@ -9,4 +9,5 @@ return array(
     'Router\\' => array($baseDir . '/routes'),
     'RostoInfinity\\Afphpoo4\\' => array($baseDir . '/src'),
     'App\\' => array($baseDir . '/app'),
+    ' Database\\' => array($baseDir . '/database'),
 );
