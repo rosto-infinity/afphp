@@ -1,7 +1,7 @@
 <?php
 namespace Router;
 
-use DataBase\DBConnection;
+
 
 class Route{
     /**

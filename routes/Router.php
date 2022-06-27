@@ -25,7 +25,7 @@ class Router {
         $this->routes['GET'][] = new Route($path, $action);
     }
 
-    public function rum(){
+    public function run(){
     
         foreach($this->routes[$_SERVER['REQUEST_METHOD']] as $route){
          if($route->matches($this->url)){
