@@ -1,6 +1,6 @@
 <?php
-namespace App\controllers;
-class BlogController{
+namespace App\Controllers;
+class BlogController extends Controller{
    
     public function index(){
        echo "page accueil";
