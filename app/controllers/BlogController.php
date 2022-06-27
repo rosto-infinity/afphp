@@ -3,7 +3,7 @@ namespace App\controllers;
 class BlogController{
    
     public function index(){
-       echo "index";
+       echo "page accueil";
     }
     public function show($id){
         echo "show $id";
