@@ -9,14 +9,27 @@ class ComposerStaticInit49a7d21b39eb42ee04dc43ae60c696af
     public static $prefixLengthsPsr4 = array (
         'R' => 
         array (
+            'Router\\' => 7,
             'RostoInfinity\\Afphpoo4\\' => 23,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Router\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/routes',
+        ),
         'RostoInfinity\\Afphpoo4\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

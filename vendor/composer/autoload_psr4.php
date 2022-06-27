@@ -6,5 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Router\\' => array($baseDir . '/routes'),
     'RostoInfinity\\Afphpoo4\\' => array($baseDir . '/src'),
+    'App\\' => array($baseDir . '/app'),
 );
