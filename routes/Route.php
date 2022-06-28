@@ -66,7 +66,7 @@ class Route{
         //  extraite en utilisant le séparateur (@).
 
         $params = explode('@', $this->action);
-        $controller = new $params[0](new Db('myappprof', '127.0.0.1', 'root', '')); 
+        $controller = new $params[0](new Db(DB_NAME, DB_HOST, DB_USER, DB_PWD)); 
         $method = $params[1];
         // $controller->$method();
         return isset($this->matches[1]) ? $controller->$method($this->matches[1]) : $controller->$method();
