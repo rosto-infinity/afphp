@@ -1,6 +1,9 @@
 <?php 
 namespace DataBase;
 use PDO;
+/**
+ * Db class
+ */
 
 class Db {
     private $dbname;
