@@ -8,6 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Router\\' => array($baseDir . '/routes'),
     'RostoInfinity\\Afphpoo4\\' => array($baseDir . '/src'),
+    'DataBase\\' => array($baseDir . '/database'),
     'App\\' => array($baseDir . '/app'),
-    ' Database\\' => array($baseDir . '/database'),
 );

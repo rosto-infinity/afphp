@@ -5,7 +5,7 @@
             "RostoInfinity\\Afphpoo4\\": "src/",
             "Router\\": "routes/",
             "App\\": "app/",
-           " Database\\": "database/"
+            "DataBase\\": "database"
         }
     },
     "require": {}
