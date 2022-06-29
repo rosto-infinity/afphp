@@ -1,1 +1,2 @@
-<h1>Post N°<?= $params['id'] ?> </h1>
+<h1>N°<?= $params['id']?></h1>
+
