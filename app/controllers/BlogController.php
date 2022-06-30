@@ -13,8 +13,7 @@ class BlogController extends Controller{
 
     }
    
-    public function index()
-    {
+    public function index(){
         $post = new Post($this->getDB());
         $posts = $post->all();
 
