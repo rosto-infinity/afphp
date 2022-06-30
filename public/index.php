@@ -20,5 +20,7 @@ $router->get('/', 'App\Controllers\BlogController@welcome');
 // $router->get( '/', 'App\Controllers\BlogController@index');
 $router->get('/posts', 'App\Controllers\BlogController@index');
 $router->get( '/posts/:id', 'App\Controllers\BlogController@show');
+$router->get('/tags/:id', 'App\Controllers\BlogController@tag');
+
 
 $router->run();

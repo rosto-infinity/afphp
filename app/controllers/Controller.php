@@ -23,6 +23,12 @@ abstract class Controller{
             require VIEWS . 'layout.php';
 
         }
+
+        /**
+         * getter
+         *
+         *
+         */
         protected function getDB(){
         return $this->db;
     }

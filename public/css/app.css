@@ -4932,7 +4932,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-text {
-    color: rgba(0, 0, 0, .5)
+    color: rgb(233, 17, 17)
 }
 
 .navbar-light .navbar-text a {
@@ -4941,7 +4941,7 @@ input[type=submit].btn-block {
 
 .navbar-light .navbar-text a:focus,
 .navbar-light .navbar-text a:hover {
-    color: rgba(0, 0, 0, .9)
+    color: rgba(228, 20, 20, 0.9)
 }
 
 .navbar-dark .navbar-brand {
