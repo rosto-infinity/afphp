@@ -6,7 +6,7 @@
             <h2><?= $post->title ?></h2>
             <div>
                 <?php foreach ($post->getTags() as $tag) : ?>
-                    <span class="badge badge-info"><?= $tag->name ?></span>
+                    <span class="badge badge-success"><a href="/afphp/tags/<?= $tag->id ?>" class="text-white"><?= $tag->name ?></a></span>
                 <?php endforeach ?>
             </div>
             <small class="text-info">Publié le <?= $post->getCreatedAt() ?></small>
@@ -14,4 +14,4 @@
             <?= $post->getButton() ?>
         </div>
     </div>
-<?php endforeach ?>
+<?php endforeach ?> 
